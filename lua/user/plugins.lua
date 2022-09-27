@@ -14,6 +14,7 @@ return packer.startup(function(use)
   -- lsp & cmp
   use "hrsh7th/nvim-cmp"
   use "hrsh7th/cmp-buffer"
+  use "hrsh7th/cmp-path"
 
 
   -- colorschemes
