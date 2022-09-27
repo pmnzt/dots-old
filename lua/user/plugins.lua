@@ -10,6 +10,11 @@ return packer.startup(function(use)
   use "nvim-lualine/lualine.nvim" 
   use "nvim-telescope/telescope.nvim"
 
+  -- lsp & cmp
+  use "hrsh7th/nvim-cmp"
+  use "hrsh7th/cmp-buffer"
+
+
   -- colorschemes
   use "sainnhe/gruvbox-material"
 end)
