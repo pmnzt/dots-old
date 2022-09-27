@@ -9,6 +9,7 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim"   
   use "nvim-lualine/lualine.nvim" 
   use "nvim-telescope/telescope.nvim"
+  use "windwp/nvim-autopairs"
 
   -- lsp & cmp
   use "hrsh7th/nvim-cmp"
