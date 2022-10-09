@@ -24,6 +24,9 @@ return packer.startup(function(use)
   -- snippets
   use "L3MON4D3/LuaSnip"
 
+  -- git
+  use "lewis6991/gitsigns.nvim"      
+
   -- colorschemes
   use "sainnhe/gruvbox-material"
 end)
